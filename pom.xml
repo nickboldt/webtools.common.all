@@ -21,6 +21,16 @@
 	</modules>
 	<repositories>
 		<repository>
+			<id>webtools-390M6</id>
+			<url>http://download.eclipse.org/webtools/downloads/drops/R3.9.0/S-3.9.0M6-20170314000054/repository/</url>
+			<layout>p2</layout>
+		</repository>
+		<repository>
+			<id>webtools-I-3.9.0-20170411000049</id>
+			<url>http://download.eclipse.org/webtools/downloads/drops/R3.9.0/I-3.9.0-20170411000049/repository/</url>
+			<layout>p2</layout>
+		</repository>
+		<repository>
 			<id>jboss-public-repository-group</id>
 			<name>JBoss Public Repository Group</name>
 			<url>http://repository.jboss.org/nexus/content/groups/public/</url>
