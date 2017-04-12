@@ -17,6 +17,7 @@
 		<module>webtools.common.fproj</module>
 		<module>webtools.common.snippets</module>
 		<module>webtools.common.tests</module>
+		<module>site</module>
 	</modules>
 	<repositories>
 		<repository>
