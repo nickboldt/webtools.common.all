@@ -12,22 +12,26 @@
 	<artifactId>org.eclipse.webtools.common.all</artifactId>
 	<version>3.8.3-SNAPSHOT</version>
 	<packaging>pom</packaging>
+	<properties>
+		<webtools.repository>http://download.eclipse.org/webtools/downloads/drops/R3.8.2/R-3.8.2-20170308000057/repository/</webtools.repository>
+	</properties>
 	<modules>
 		<module>webtools.common</module>
 		<module>webtools.common.fproj</module>
 		<module>webtools.common.snippets</module>
 		<module>webtools.common.tests</module>
+		<module>webtools.common/features/org.eclipse.wst.common_core_EBZ511793.feature.patch</module>
 		<module>site</module>
 	</modules>
 	<repositories>
 		<repository>
-			<id>webtools-382R</id>
-			<url>http://download.eclipse.org/webtools/downloads/drops/R3.8.2/R-3.8.2-20170308000057/repository/</url>
+			<id>webtools.repository</id>
+			<url>${webtools.repository}</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
-			<id>devstudio-463</id>
-			<url>https://devstudio.jboss.com/targetplatforms/jbdevstudiotarget/4.63.0.Final-SNAPSHOT/</url>
+			<id>jbosstools-neon-stable</id>
+			<url>http://download.jboss.org/jbosstools/neon/stable/updates/</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
