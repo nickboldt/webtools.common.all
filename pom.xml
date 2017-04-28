@@ -14,7 +14,7 @@
 	<packaging>pom</packaging>
 	<properties>
 		<!-- <webtools.repository>http://download.eclipse.org/webtools/downloads/drops/R3.9.0/S-3.9.0M6-20170314000054/repository/</webtools.repository> -->
-		<webtools.repository>http://download.eclipse.org/webtools/downloads/drops/R3.9.0/I-3.9.0-20170424000059/repository</webtools.repository>
+		<webtools.repository>http://download.eclipse.org/webtools/downloads/drops/R3.9.0/I-latest/repository/</webtools.repository>
 	</properties>
 	<modules>
 		<module>webtools.common</module>
