@@ -12,22 +12,27 @@
 	<artifactId>org.eclipse.webtools.common.all</artifactId>
 	<version>3.9.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
+	<properties>
+		<!-- <webtools.repository>http://download.eclipse.org/webtools/downloads/drops/R3.9.0/S-3.9.0M6-20170314000054/repository/</webtools.repository> -->
+		<webtools.repository>http://download.eclipse.org/webtools/downloads/drops/R3.9.0/I-3.9.0-20170424000059/repository</webtools.repository>
+	</properties>
 	<modules>
 		<module>webtools.common</module>
 		<module>webtools.common.fproj</module>
 		<module>webtools.common.snippets</module>
 		<module>webtools.common.tests</module>
+		<module>webtools.common/features/org.eclipse.wst.common_core_EBZ511793.feature.patch</module>
 		<module>site</module>
 	</modules>
 	<repositories>
 		<repository>
-			<id>webtools-390M6</id>
-			<url>http://download.eclipse.org/webtools/downloads/drops/R3.9.0/S-3.9.0M6-20170314000054/repository/</url>
+			<id>webtools.repository</id>
+			<url>${webtools.repository}</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
-			<id>webtools-I-3.9.0-20170411000049</id>
-			<url>http://download.eclipse.org/webtools/downloads/drops/R3.9.0/I-3.9.0-20170411000049/repository/</url>
+			<id>jbosstools-oxygen-staging</id>
+			<url>http://download.jboss.org/jbosstools/oxygen/staging/updates/</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+
+    <feature id="org.eclipse.wst.common_core_EBZ511793.feature.patch" version="0.0.0"><category name="common"/></feature>
+    <bundle id="org.eclipse.wst.common.modulecore" version="0.0.0"><category name="common"/></bundle>
+    
+    <category-def name="common" label="Web Tools Platform (WTP) Common"><description>
+    Common plugins shared by WTP features
+    </description></category-def>
+</site>

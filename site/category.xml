@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-    <feature id="org.eclipse.wst.common_ui.feature" version="0.0.0"><category name="common"/></feature>
-    <feature id="org.eclipse.wst.common_core.feature" version="0.0.0"><category name="common"/></feature>
-    <feature id="org.eclipse.jst.common.fproj.enablement.jdt" version="0.0.0"><category name="common"/></feature>
-    <feature id="org.eclipse.wst.common.fproj" version="0.0.0"><category name="common"/></feature>
+    <feature id="org.eclipse.wst.common_ui.feature"><category name="common"/></feature>
+    <feature id="org.eclipse.wst.common_core.feature"><category name="common"/></feature>
+    <feature id="org.eclipse.jst.common.fproj.enablement.jdt"><category name="common"/></feature>
+    <feature id="org.eclipse.wst.common.fproj"><category name="common"/></feature>
 
-    <feature id="org.eclipse.wst.common_sdk.feature" version="0.0.0"><category name="common.sdk"/></feature>
-    <feature id="org.eclipse.wst.common.fproj.sdk" version="0.0.0"><category name="common.sdk"/></feature>
-    <feature id="org.eclipse.jst.common.fproj.enablement.jdt.sdk" version="0.0.0"><category name="common.sdk"/></feature>
+    <feature id="org.eclipse.wst.common_sdk.feature"><category name="common.sdk"/></feature>
+    <feature id="org.eclipse.wst.common.fproj.sdk"><category name="common.sdk"/></feature>
+    <feature id="org.eclipse.jst.common.fproj.enablement.jdt.sdk"><category name="common.sdk"/></feature>
      
-    <feature id="org.eclipse.wst.common_tests.feature" version="0.0.0"><category name="common.tests"/></feature>
+    <feature id="org.eclipse.wst.common_tests.feature"><category name="common.tests"/></feature>
+    
+    <feature id="org.eclipse.wst.common_core_EBZ511793.feature.patch"><category name="common"/></feature>
 
     <category-def name="common" label="Web Tools Platform (WTP) Common"><description>
     Common plugins shared by WTP features
